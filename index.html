@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!---Css files-->
+    <link rel="stylesheet" href="css/add.css">
 </head>
+
 <body>
 
+    <div id="appcontaine">
+        <div id="game_start_all_images">
+            <div id="images_container_game_screen">
+                <img src="images/background.jpg" id="background_image" alt="">
 
-<button  onclick=myfunction()>Click Me</button>
-    <!-- script -->
-   
-   
-    <script  src="./js/myjs.js">   </script>
+                <div id="start_btn">
+                    <img src="images/start_btn.png" id="startbtn" alt="">
+
+                </div>
+            </div>
+        </div>
+        <div id="game_screen" class="hide">
+            <img src="images/gamestart.jpg">
+            <div id="chances">
+                <img src="images/chnaces.png" alt="" sizes="" srcset="">
+                <br>
+                  <span id="chancesspan"></span>
+            </div>
+        
+            <div id="score_game">
+                <img src="images/score.png" alt="">
+                <br>
+                <span id="score"></span>
+
+            </div>
+
+        </div>
+        <div id="game_over" class="hide">
+
+            <div id="go_screen">
+                <img src="images/gameover.png" alt="">
+            </div>
+        </div>
+
+
+    </div>
+    <!--Scripts file-->
+    <script src="js/add.js"></script>
+    <script>
+        app.init();
+    </script>
 </body>
+
 </html>

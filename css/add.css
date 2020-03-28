@@ -1,0 +1,94 @@
+#backgrounddiv {
+  background-image: url("colorful-3d-balloons-vector-background.jpg");
+ 
+
+} 
+
+#appcontaine {
+  width: 1299px;
+  margin: auto;
+  text-align: center;
+
+}
+
+#start_btn {
+
+  position: absolute;
+  top: 330px;
+  left: 700px;
+  text-align: center;
+}
+
+#start_btn img {
+
+  width: 130px;
+  cursor: pointer;
+}
+
+#startbtn:hover {
+  opacity: .7;
+
+}
+
+.hide {
+
+  display: none;
+}
+
+.bloonset {
+  width: 70px;
+  position: absolute;
+  left: 400px;
+  height: 100px;
+
+}
+
+#game_screen {
+  position: relative;
+  overflow: hidden;
+}
+
+#score_game {
+  position: absolute;
+  top: 100px;
+  left: 1100px;
+
+}
+
+#score_game img {
+  width: 100px;
+
+}
+
+#score {
+  font-size: 30px;
+}
+
+#chances {
+  position: absolute;
+  top: 30px;
+  left: 1090px;
+}
+
+#chances img {
+  width: 120px;
+
+}
+
+#chancesspan {
+  font-size: 30px;
+}
+
+.explosion{
+  position: absolute;
+  width:60px;
+}
+
+#game_over {
+
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  text-align: center;
+
+}
